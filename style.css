@@ -191,28 +191,25 @@ body {
     font-variant: small-caps;
     text-shadow: 2px 2px 5px #000;
     animation: hidingtext 12s linear infinite;
-    -webkit-animation: hidingtext 12s linear infinite ;
+    -webkit-animation: hidingtext 9s linear infinite ;
 }
 @keyframes hidingtext{
     0%{
         width: 80%;
     }
-    20%{
+    25%{
         width:0%;
     }
-    40%{
+    50%{
         width:80%;
         content:"Video_Editor";
     }
-    60%{
+    75%{
         width: 0;
     }
-    80%{
+    100%{
         width:80%;
         content:"SEO_Expert";
-    }
-    100%{
-        width: 0%;
     }
 }
 
