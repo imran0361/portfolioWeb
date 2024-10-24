@@ -170,7 +170,7 @@ body {
 
 .content h1 {
     font-size: 5rem;
-    color: var(--text-style-color);
+    color: transparent;
     position: relative;
     overflow: hidden;
     font-variant: small-caps;
@@ -181,17 +181,17 @@ body {
 .content h1::after{
     content: "Digital_Marketer. ";
     font-size: inherit;
-    border-right: 3px solid #ff2b2b;
+    border-right: 3px solid var(--text-style-color);
     position: absolute;
     left: 0;
-    color: #ff2b2b;
+    color: var(--text-style-color);
     width: 0;
     letter-spacing: .2rem;
     overflow: hidden;
     font-variant: small-caps;
     text-shadow: 2px 2px 5px #000;
     animation: hidingtext 12s linear infinite;
-    -webkit-animation: hidingtext 2s linear infinite;
+    -webkit-animation: hidingtext 12s linear infinite alternate;
 }
 @keyframes hidingtext{
     0%{
