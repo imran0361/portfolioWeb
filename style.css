@@ -185,7 +185,7 @@ body {
     position: absolute;
     left: 0;
     color: var(--text-style-color);
-    width: 0;
+    width: 80%;
     letter-spacing: .2rem;
     overflow: hidden;
     font-variant: small-caps;
